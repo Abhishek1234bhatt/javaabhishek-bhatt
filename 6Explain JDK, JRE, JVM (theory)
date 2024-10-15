@@ -1,0 +1,36 @@
+Java Development Kit (JDK)
+Definition: The JDK is a comprehensive software development kit that provides the necessary tools and libraries for developing Java applications. It is designed for developers who want to create, compile, and debug Java programs.
+
+Components:
+
+Java Compiler (javac): This tool converts Java source code (written in .java files) into bytecode (stored in .class files). The bytecode is what the JVM executes.
+Java Runtime Environment (JRE): Included within the JDK, the JRE provides the runtime environment needed to run Java applications.
+Development Tools: Various command-line tools, such as javadoc (for generating documentation), jar (for creating JAR files), and jdb (for debugging).
+Libraries and APIs: The JDK comes with a set of libraries and Application Programming Interfaces (APIs) that provide pre-written code for common tasks, such as networking, data manipulation, and file handling.
+Use: The JDK is used by software developers to write and test Java applications. It contains everything necessary for Java development, including compilers and debuggers.
+
+2. Java Runtime Environment (JRE)
+Definition: The JRE is a subset of the JDK that provides the environment necessary to run Java applications. It includes the JVM and standard Java libraries.
+
+Components:
+
+Java Virtual Machine (JVM): The core component that executes Java bytecode and provides a runtime environment.
+Core Libraries: Essential classes and libraries that support basic functionalities for Java applications, including data structures, networking, file I/O, and more.
+Support Files: Additional files that facilitate the execution of Java applications.
+Use: The JRE is intended for end users who want to run Java applications without the need for development tools. It can be installed on machines that require the ability to execute Java programs but do not need the full suite of development capabilities.
+
+3. Java Virtual Machine (JVM)
+Definition: The JVM is an abstract computing machine that provides the environment in which Java bytecode is executed. It is responsible for converting bytecode into machine code for the underlying operating system.
+
+Components:
+
+Class Loader: This component loads classes into memory as needed and verifies the bytecode for security and correctness.
+Execution Engine: The engine that executes the bytecode. It may use an interpreter (which executes bytecode line by line) or a Just-In-Time (JIT) compiler (which compiles bytecode into native machine code for performance optimization).
+Garbage Collector: Manages memory by automatically reclaiming memory that is no longer in use, preventing memory leaks and improving efficiency.
+Runtime Data Areas: Includes different memory areas like the heap (for dynamic memory allocation) and the stack (for method execution and local variables).
+Use: The JVM enables Java applications to be platform-independent, meaning that the same Java program can run on any device with a compatible JVM, regardless of the underlying hardware and operating system.
+
+Summary
+JDK: A complete toolkit for Java development, containing the JRE and development tools like compilers and debuggers.
+JRE: A runtime environment for executing Java applications, including the JVM and core libraries, but without development tools.
+JVM: The engine that executes Java bytecode, providing a platform-independent execution environment.
